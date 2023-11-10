@@ -19,12 +19,6 @@ public class LoginCommand : IRequest<LoginResultDto>
 
 
     public required string Password { get; set; }
-
-    public bool RememberLogin { get; set; }
-
-    public string? ReturnUrl { get; set; }
-
-    public string? Button { get; set; }
 }
 
 public class LoginCommandHandler : IRequestHandler<LoginCommand, LoginResultDto>

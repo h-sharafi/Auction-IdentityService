@@ -12,4 +12,6 @@ public class AccountController : BaseController
     [HttpPost("[action]")]
     public async Task<IActionResult> Login(LoginCommand loginCommand) =>
             Ok(await Mediator.Send(loginCommand));
+
+  
 }
