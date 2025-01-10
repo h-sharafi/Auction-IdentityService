@@ -1,0 +1,23 @@
+# .NET Core
+bin/
+obj/
+artifacts/
+
+# ASP.NET Core
+wwwroot/
+
+# User-specific files
+.vscode/
+.idea/
+.vs/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# User-specific files
+*.user
+*.userosscache
+*.suo

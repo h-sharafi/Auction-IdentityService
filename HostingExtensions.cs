@@ -17,7 +17,7 @@ internal static class HostingExtensions
     public static WebApplication ConfigureServices(this WebApplicationBuilder builder)
     {
         builder.Services.AddControllers()
-      .AddJsonOptions(options =>
+            .AddJsonOptions(options =>
             {
                 // serialize enums as strings in api responses (e.g. Role)
                 options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());

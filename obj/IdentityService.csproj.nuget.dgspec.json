@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/sharafi/Desktop/Sharafi/Nail/src/IdentityService/IdentityService.csproj": {}
+    "/home/sharafi/Desktop/Sharafi/Marketing/Auction-IdentityService/IdentityService.csproj": {}
   },
   "projects": {
-    "/home/sharafi/Desktop/Sharafi/Nail/src/IdentityService/IdentityService.csproj": {
+    "/home/sharafi/Desktop/Sharafi/Marketing/Auction-IdentityService/IdentityService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/sharafi/Desktop/Sharafi/Nail/src/IdentityService/IdentityService.csproj",
+        "projectUniqueName": "/home/sharafi/Desktop/Sharafi/Marketing/Auction-IdentityService/IdentityService.csproj",
         "projectName": "IdentityService",
-        "projectPath": "/home/sharafi/Desktop/Sharafi/Nail/src/IdentityService/IdentityService.csproj",
+        "projectPath": "/home/sharafi/Desktop/Sharafi/Marketing/Auction-IdentityService/IdentityService.csproj",
         "packagesPath": "/home/sharafi/.nuget/packages/",
-        "outputPath": "/home/sharafi/Desktop/Sharafi/Nail/src/IdentityService/obj/",
+        "outputPath": "/home/sharafi/Desktop/Sharafi/Marketing/Auction-IdentityService/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/sharafi/.nuget/NuGet/NuGet.Config"
@@ -58,10 +58,6 @@
               "target": "Package",
               "version": "[7.0.11, )"
             },
-            "Microsoft.AspNetCore.Identity.UI": {
-              "target": "Package",
-              "version": "[7.0.11, )"
-            },
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -82,6 +78,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -90,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.112/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.107/RuntimeIdentifierGraph.json"
         }
       }
     }
